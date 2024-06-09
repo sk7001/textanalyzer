@@ -41,7 +41,7 @@ export default function Textinput() {
         <Button className='mx-1' onClick={upClick}>Upper Case</Button>
         <Button className='mx-1' onClick={loClick}>Lower Case</Button><br />
         <p style={{marginTop:"50px", fontSize:"30px"}}>Your entered text has {text.length} characters and {wordLength} words.</p>
-        <p style={{marginTop:"20px", fontSize:"30px"}}>Approx. reading time {0.48 * wordLength} seconds. </p>
+        <p style={{marginTop:"20px", fontSize:"30px"}}>Approx. reading time {0.0571 * text.length} seconds. </p>
       </Container>
     </div>
   )
