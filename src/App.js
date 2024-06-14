@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/textanalyzer" element={<Homepage />} />
-          <Route path="/about" element={<About/>}/>
+          <Route path="/textanalyzer/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
     </div>
